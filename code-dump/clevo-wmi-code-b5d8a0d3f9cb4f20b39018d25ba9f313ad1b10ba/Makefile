@@ -1,4 +1,4 @@
-obj-m := clevo_wmi.o
+obj-m := clevo-wmi.o
 KDIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
 
